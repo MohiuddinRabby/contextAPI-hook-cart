@@ -6,7 +6,7 @@ const Shop = () => {
   const data = fakeData;
   const [products, setProducts] = useState(data);
   return (
-    <div className="container">
+    <div className="container py-5">
       <div className="row">
         {products.map((product) => (
           <div className="col-md-4 py-3" key={product.id}>

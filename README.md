@@ -1,1 +1,1 @@
-#### Cart with Context-api hooks [ React ]
+#### Shopping-Cart with Context-api hooks [ React ]
