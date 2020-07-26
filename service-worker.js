@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/contextAPI-hook-cart/precache-manifest.9704223461549d9bb6da92c745fba6bc.js"
+  "/contextAPI-hook-cart/precache-manifest.e84e05dc9e93d4658ba3909a4fe34ed9.js"
 );
 
 self.addEventListener('message', (event) => {
