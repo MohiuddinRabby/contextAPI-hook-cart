@@ -1,11 +1,16 @@
-import React from 'react';
-
+import React from "react";
+import Shop from "./components/Shop/Shop";
+import Header from "./components/Header/Header";
+import { ContextProvider } from "./Context/Context";
 
 function App() {
   return (
-   <div>
-     <h1>Hello</h1>
-   </div>
+    <>
+      <ContextProvider>
+        <Header></Header>
+        <Shop></Shop>
+      </ContextProvider>
+    </>
   );
 }
 
